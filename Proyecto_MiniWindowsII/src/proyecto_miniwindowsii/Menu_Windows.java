@@ -5,6 +5,11 @@
  */
 package proyecto_miniwindowsii;
 
+import javax.swing.ImageIcon;
+import javax.swing.JLabel;
+import javax.swing.JLayeredPane;
+import javax.swing.JPanel;
+
 /**
  *
  * @author famii
@@ -16,6 +21,14 @@ public class Menu_Windows extends javax.swing.JFrame {
      */
     public Menu_Windows() {
         initComponents();
+        setTitle("BIENVENIDO A WINDOWS 10");
+        setIconImage(new ImageIcon(getClass().getResource("/Images/Windows.jpg")).getImage());
+        ((JPanel)getContentPane()).setOpaque(false);
+        ImageIcon uno=new ImageIcon(this.getClass().getResource("/Images/FondoW.jpg"));
+        JLabel fondo= new JLabel();
+        fondo.setIcon(uno);
+        getLayeredPane().add(fondo,JLayeredPane.FRAME_CONTENT_LAYER);
+        fondo.setBounds(0,0,uno.getIconWidth(),uno.getIconHeight());
     }
 
     /**
@@ -28,6 +41,7 @@ public class Menu_Windows extends javax.swing.JFrame {
     private void initComponents() {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setExtendedState(6);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
