@@ -5,6 +5,8 @@
  */
 package proyecto_miniwindowsii;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author famii
@@ -16,7 +18,6 @@ public class Proyecto_MiniWindowsII {
      */
     public static void main(String[] args) {
         new Login().setVisible(true);
-        
     }
     
 }
