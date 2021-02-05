@@ -21,7 +21,7 @@ public class Login extends javax.swing.JFrame {
      */
     public Login() {
         initComponents();
-        initComponents();
+        
         setTitle("LOG IN WINDOWS 10");
         setIconImage(new ImageIcon(getClass().getResource("/Images/Windows.jpg")).getImage());
         ((JPanel)getContentPane()).setOpaque(false);
@@ -52,6 +52,7 @@ public class Login extends javax.swing.JFrame {
         jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI Symbol", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
