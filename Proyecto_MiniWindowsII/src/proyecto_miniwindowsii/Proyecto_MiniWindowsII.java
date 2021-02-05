@@ -15,7 +15,7 @@ public class Proyecto_MiniWindowsII {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        new Menu_Windows().setVisible(true);
+        new Login().setVisible(true);
         
     }
     
