@@ -149,10 +149,10 @@ public class Login extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jbEntrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbEntrarActionPerformed
-        if(txtUser.getText() == null || txtUser.getText()== ""){
+        if(txtUser.getText() == null || "".equals(txtUser.getText())){
             JOptionPane.showMessageDialog(this, "Ingresar un usuario: ");
         }
-        if(txtPass.getText() == null || txtPass.getText()== ""){
+        if(txtPass.getText() == null || "".equals(txtPass.getText())){
             JOptionPane.showMessageDialog(this, "Ingresar una contraseña: ");
         }
         if(txtUser.getText().equals("OsmanMejia69") && txtPass.getText().equals("Omejia")){

@@ -5,6 +5,11 @@
  */
 package proyecto_miniwindowsii;
 
+import java.io.File;
+import javax.swing.JTree;
+import javax.swing.tree.DefaultMutableTreeNode;
+import javax.swing.tree.DefaultTreeModel;
+
 /**
  *
  * @author famii
@@ -16,6 +21,22 @@ public class NavegadorTree extends javax.swing.JFrame {
      */
     public NavegadorTree() {
         initComponents();
+        DefaultTreeModel model = (DefaultTreeModel) jTree1.getModel();
+        
+        File Disco = new File(Constantes.RutaRaiz);
+        File[] Carpetas = Disco.listFiles();
+        
+        DefaultMutableTreeNode Raiz = new DefaultMutableTreeNode(Constantes.Disco);
+        
+        for (int i = 0; i <Carpetas.length; i++) {
+            DefaultMutableTreeNode Users = new DefaultMutableTreeNode(Disco.list()[i]);
+            Raiz.add(Users);
+            for (int j = 0; j <Carpetas[i].listFiles().length; j++) {
+                DefaultMutableTreeNode UserCarp = new DefaultMutableTreeNode(Carpetas[i].list()[j]);
+                Users.add(UserCarp);
+            }
+        }
+        model.setRoot(Raiz);
     }
 
     /**
@@ -39,16 +60,16 @@ public class NavegadorTree extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(204, 204, 204)
+                .addGap(183, 183, 183)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 261, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(228, Short.MAX_VALUE))
+                .addContainerGap(249, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(144, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(96, 96, 96)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 275, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(98, 98, 98))
+                .addContainerGap(146, Short.MAX_VALUE))
         );
 
         pack();
