@@ -5,6 +5,9 @@
  */
 package proyecto_miniwindowsii;
 
+import java.io.File;
+import javafx.application.Application;
+
 /**
  *
  * @author famii
@@ -16,7 +19,6 @@ public class Proyecto_MiniWindowsII {
      */
     public static void main(String[] args) {
         new Login().setVisible(true);
-        
     }
     
 }
