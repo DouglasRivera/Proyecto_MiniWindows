@@ -55,6 +55,7 @@ public class Login extends javax.swing.JFrame {
         jbSignUp = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Log In - Windows10");
         setResizable(false);
 
         jbApagar.setFont(new java.awt.Font("Segoe UI Symbol", 1, 18)); // NOI18N
