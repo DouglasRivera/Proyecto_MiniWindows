@@ -9,12 +9,12 @@ package paneles;
  *
  * @author RojeruSan
  */
-public class pnlCollection extends javax.swing.JPanel {
+public class pnlAgenda extends javax.swing.JPanel {
 
     /**
      * Creates new form pnlHome
      */
-    public pnlCollection() {
+    public pnlAgenda() {
         initComponents();
     }
 
@@ -36,16 +36,16 @@ public class pnlCollection extends javax.swing.JPanel {
         jLabel5.setFont(new java.awt.Font("Roboto", 1, 24)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(38, 86, 186));
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel5.setText("EJEMPLO DE MENU HECHO EN JAVA");
+        jLabel5.setText("En mantenimiento");
 
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/about.png"))); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img1/evento (1).png"))); // NOI18N
 
         jLabel7.setFont(new java.awt.Font("Roboto", 1, 48)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(128, 128, 131));
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img1/collection.png"))); // NOI18N
-        jLabel7.setText("COLLECTION");
+        jLabel7.setText("AGENDA");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -67,8 +67,8 @@ public class pnlCollection extends javax.swing.JPanel {
                 .addGap(45, 45, 45)
                 .addComponent(jLabel5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel6)
-                .addContainerGap(24, Short.MAX_VALUE))
+                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 287, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(27, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

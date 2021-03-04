@@ -3,13 +3,31 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/jafigueroa/Documents/NetBeansProjects/Proyecto_MiniWindows/Proyecto_MiniWindowsII/src/proyecto_miniwindowsii/Login.java</file>
-            <file>file:/C:/Users/jafigueroa/Documents/NetBeansProjects/Proyecto_MiniWindows/Proyecto_MiniWindowsII/src/proyecto_miniwindowsii/Principal.java</file>
-            <file>file:/C:/Users/jafigueroa/Documents/NetBeansProjects/Proyecto_MiniWindows/Proyecto_MiniWindowsII/src/proyecto_miniwindowsii/Usuario.java</file>
-            <file>file:/C:/Users/jafigueroa/Documents/NetBeansProjects/Proyecto_MiniWindows/Proyecto_MiniWindowsII/src/paneles/pnlHome.java</file>
-            <file>file:/C:/Users/jafigueroa/Documents/NetBeansProjects/Proyecto_MiniWindows/Proyecto_MiniWindowsII/src/proyecto_miniwindowsii/Menu_Windows.java</file>
-            <file>file:/C:/Users/jafigueroa/Documents/NetBeansProjects/Proyecto_MiniWindows/Proyecto_MiniWindowsII/src/proyecto_miniwindowsii/Proyecto_MiniWindowsII.java</file>
-            <file>file:/C:/Users/jafigueroa/Documents/NetBeansProjects/Proyecto_MiniWindows/Proyecto_MiniWindowsII/src/proyecto_miniwindowsii/NavegadorTree.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/paneles/pnlFeeBack.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/Pojo/Tabla_Likes.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/paneles/pnlWeb.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/paneles/pnlCollection.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/Pojo/Usuario.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/proyecto_miniwindowsii/FormularioAdmin.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/paneles/CambiaPanel.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/img1/collection.png</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/proyecto_miniwindowsii/Login.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/proyecto_miniwindowsii/Documento.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/proyecto_miniwindowsii/Proyecto_MiniWindowsII.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/BD/UsuarioDBA.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/proyecto_miniwindowsii/NavegadorTree.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/img1/chat.png</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/BD/Tabla_AdjuntoDBA.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/proyecto_miniwindowsii/Constantes.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/paneles/pnlMarket.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/proyecto_miniwindowsii/Contacto.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/paneles/pnlChat.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/paneles/pnlIOS.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/paneles/pnlRedSocial.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/BD/RolDBA.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/paneles/pnlHome.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/BD/Tabla_LikesDBA.java</file>
+            <file>file:/C:/Users/river/OneDrive/Escritorio/Proyecto_MiniWindow/Proyecto_MiniWindows/Proyecto_MiniWindows-master/Proyecto_MiniWindowsII/src/proyecto_miniwindowsii/Principal.java</file>
         </group>
     </open-files>
 </project-private>

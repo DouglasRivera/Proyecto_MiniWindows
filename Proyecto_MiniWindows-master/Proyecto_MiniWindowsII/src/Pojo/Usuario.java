@@ -1,15 +1,18 @@
+package Pojo;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package proyecto_miniwindowsii;
+
 
 /**
  *
  * @author famii
  */
 public class Usuario {
+    int Id;
     String Nombre;
     String Contraseña;
     int Rol_Usuario;
@@ -17,10 +20,20 @@ public class Usuario {
     public Usuario() {
     }
 
-    public Usuario(String Nombre, String Contraseña, int Rol_Usuario) {
+    public Usuario(int Id, String Nombre, String Contraseña, int Rol_Usuario) {
+        this.Id = Id;
         this.Nombre = Nombre;
         this.Contraseña = Contraseña;
         this.Rol_Usuario = Rol_Usuario;
+        
+    }
+
+    public int getId() {
+        return Id;
+    }
+
+    public void setId(int Id) {
+        this.Id = Id;
     }
 
     public String getNombre() {

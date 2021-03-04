@@ -9,12 +9,12 @@ package paneles;
  *
  * @author RojeruSan
  */
-public class pnlFeeBack extends javax.swing.JPanel {
+public class pnlRedSocial extends javax.swing.JPanel {
 
     /**
      * Creates new form pnlHome
      */
-    public pnlFeeBack() {
+    public pnlRedSocial() {
         initComponents();
     }
 
@@ -36,16 +36,16 @@ public class pnlFeeBack extends javax.swing.JPanel {
         jLabel5.setFont(new java.awt.Font("Roboto", 1, 24)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(38, 86, 186));
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel5.setText("EJEMPLO DE MENU HECHO EN JAVA");
+        jLabel5.setText("En mantenimiento");
 
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/about.png"))); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img1/sitio-web.png"))); // NOI18N
 
         jLabel7.setFont(new java.awt.Font("Roboto", 1, 48)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(128, 128, 131));
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img1/feeedback.png"))); // NOI18N
-        jLabel7.setText("FEEDBACK");
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img1/android.png"))); // NOI18N
+        jLabel7.setText("Red Social");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -67,8 +67,8 @@ public class pnlFeeBack extends javax.swing.JPanel {
                 .addGap(56, 56, 56)
                 .addComponent(jLabel5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel6)
-                .addContainerGap(20, Short.MAX_VALUE))
+                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 271, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(43, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
