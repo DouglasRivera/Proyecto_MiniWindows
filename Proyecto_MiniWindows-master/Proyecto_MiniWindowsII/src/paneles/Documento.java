@@ -1,4 +1,4 @@
-package proyecto_miniwindowsii;
+package paneles;
 
 import java.io.Serializable;
 import javax.swing.JTextPane;
